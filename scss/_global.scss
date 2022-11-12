@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PublicSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #6C8294;
+}
+.container{
+max-width: 1130px;
+width: 100%;
+margin: 0 auto;
+padding: 40px 10px 10px 10px;
+ 
+ 
+}
+.btn{
+    padding: 15px 25px;
+    border-radius: 24px;
+    font-family: "PublicSans-Bold";
+    border: none;
+    background: #BA4270;
+}
+.btn:hover, .btn:active{
+    background: #DA6D97;
+    cursor: pointer;
+}
+ .e-mail {
+    padding: 15px 140px 15px 27px;
+    margin-bottom: 16px;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+  }

@@ -1,0 +1,140 @@
+.simple {
+    background-image: url(../assets/images/simple-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 550px 450px;
+    background-position-x: 95%;
+    background-position-y: 30px;
+  
+  &__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  &__title {
+    margin-bottom: 24px;
+    font-family: "DM-Serif";
+    font-size: 48px;
+    line-height: 56px;
+  }
+  p {
+    max-width: 430px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+    .card__title {
+      margin-top: 32px;
+      margin-bottom: 16px;
+      font-family: "PublicSans-Bold";
+      font-size: 18px;
+      line-height: 25px;
+    }
+    p {
+      width: 350px;
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+  }
+}
+
+@media only screen and(max-width:1150px) {
+  .simple {
+    &__cards {
+      p {
+        width: 270px;
+      }
+    }
+    background-image: none;
+  }
+}
+@media only screen and(max-width:950px) {
+  .simple {
+    &__data {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    &__cards {
+      img {
+        width: 80px;
+        height: 88px;
+      }
+      p {
+        width: 220px;
+      }
+    }
+    &__button {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+    }
+    background-image: none;
+  }
+}
+@media only screen and(max-width:750px) {
+  .simple {
+  &__cards{
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 0 auto;
+        width: 350px;
+    }
+  }
+//  .btn{
+//     margin-left: 50px;
+//     padding: 15px 120px;
+//  }
+form{
+    display: flex;
+    flex-direction: column;
+}
+background-image: none  ;
+}
+}
+@media only screen and(max-width:470px) {
+  .simple {
+    &__data {
+      &__title {
+        font-size: 32px;
+        line-height: 32px;
+      }
+      p {
+        width: 280px;
+      }
+      .telephones{
+    width: 290px;
+    height: 290px;
+      }
+    }
+  
+  &__cards{
+    display: flex;
+    flex-direction: column;
+    p{
+        
+        width: 280px;
+    }
+  }
+&__button{
+    .e-mail{
+        padding:15px 80px 15px 27px ;
+    }
+   
+} &__title{
+        font-size: 32px;
+line-height: 32px;
+
+    }
+}
+}
