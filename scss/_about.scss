@@ -1,5 +1,5 @@
 .about {
-  max-width: 1330px;
+  width:100%;
   margin: 0 auto;
   color: #fbfcfe;
   background-color: #1b262f;
@@ -28,6 +28,11 @@
     border-radius: 24px;
     color: #fbfcfe;
     background-color: transparent;
+  }
+  &__button:hover{
+    background-color: #fff;
+    color: #1b262f;
+    cursor: pointer;
   }
   .companys{
      max-width: 536px;
